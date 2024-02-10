@@ -1,8 +1,10 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/kianusch/dotfiles
+- /home/kianusch/work/VdFS
 - /home/kianusch/work/jdbtools
 startuppopupversion: 5
-customcommandshistory: []
+customcommandshistory:
+- q!
 hidecommandlog: false
 ignorewhitespaceindiffview: false
