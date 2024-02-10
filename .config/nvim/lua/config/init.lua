@@ -9,6 +9,7 @@ require("config.telescope")
 require('java').setup()
 require('config.completions')
 require('config.lspconfig')
+require('config.workspaces')
 
 vim.keymap.set('n', '<leader>co', ':CompilerOpen<CR>')
 vim.keymap.set('n', '<leader>g', ':LazyGit<CR>')
