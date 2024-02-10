@@ -229,28 +229,6 @@ local default_plugins = {
     end,
   },
 
-  {
-    'nvim-java/nvim-java',
-    dependencies = {
-      'nvim-java/lua-async-await',
-      'nvim-java/nvim-java-core',
-      'nvim-java/nvim-java-test',
-      'nvim-java/nvim-java-dap',
-      'MunifTanjim/nui.nvim',
-      'neovim/nvim-lspconfig',
-      'mfussenegger/nvim-dap',
-      {
-        'williamboman/mason.nvim',
-        opts = {
-          registries = {
-            'github:nvim-java/mason-registry',
-            'github:mason-org/mason-registry',
-          },
-        },
-      }
-    },
-  },
-
   -- Only load whichkey after all the gui
   {
     "folke/which-key.nvim",
@@ -273,7 +251,3 @@ if #config.plugins > 0 then
 end
 
 require("lazy").setup(default_plugins, config.lazy_nvim)
--- require("lazy").setup({{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}})
-require('java').setup()
-require('lspconfig').jdtls.setup({})
-
