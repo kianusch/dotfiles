@@ -105,8 +105,8 @@ color14=#989a9c
 color15=#d5ccba
 
 [remmina_news]
-periodic_news_permitted=false
-periodic_rmnews_last_get=0
+periodic_news_permitted=true
+periodic_rmnews_last_get=1707419145
 periodic_rmnews_get_count=10
 periodic_rmnews_uuid_prefix=XGZUWR3LP1EDK9
 
