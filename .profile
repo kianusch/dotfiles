@@ -25,3 +25,12 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+. "$HOME/.cargo/env"
+
+if [ -d "/usr/local/go" ] ; then
+  PATH="$PATH:/usr/local/go/bin"
+fi
+
+if [ -d "$HOME/go" ] ; then
+  PATH="$HOME/go/bin:$PATH"
+fi

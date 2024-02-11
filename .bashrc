@@ -146,3 +146,4 @@ fi
 test -f ~/.config/lf/lf.icons && . ~/.config/lf/lf.icons
 alias vi=nvim
 alias ssh="TERM=xterm-256color ssh"
+. "$HOME/.cargo/env"
