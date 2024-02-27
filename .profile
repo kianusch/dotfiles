@@ -34,3 +34,12 @@ fi
 if [ -d "$HOME/go" ] ; then
   PATH="$HOME/go/bin:$PATH"
 fi
+
+if [ -d "/opt/jdk" ] ; then
+  JAVA_HOME=/opt/jdk
+  PATH="$JAVA_HOME/bin:$PATH"
+fi
+
+if [ -d "/opt/gradle" ] ; then
+  PATH="/opt/gradle/bin:$PATH"
+fi

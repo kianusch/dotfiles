@@ -18,7 +18,7 @@ trust_all=false
 floating_toolbar_placement=0
 toolbar_placement=3
 prevent_snap_welcome_message=false
-last_quickconnect_protocol=
+last_quickconnect_protocol=RDP
 fullscreen_on_auto=true
 always_show_tab=true
 hide_connection_toolbar=false
@@ -106,8 +106,8 @@ color15=#d5ccba
 
 [remmina_news]
 periodic_news_permitted=true
-periodic_rmnews_last_get=1707419145
-periodic_rmnews_get_count=10
+periodic_rmnews_last_get=1708715395
+periodic_rmnews_get_count=11
 periodic_rmnews_uuid_prefix=XGZUWR3LP1EDK9
 
 [remmina]
